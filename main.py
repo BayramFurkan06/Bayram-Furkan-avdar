@@ -1,6 +1,5 @@
-alter = int(input("alter="))
-note = int(input("note="))
-if 20<=alter <=50 and note >80:
+punktzahl=float(input("punkzahl:"))
+programmierefahrung=int(input("programierefahrung(1-5"))
+
+if punktzahl > 90 or(programierefahrung == 5 and punktzahl >= 70):
   print("einstellen")
-else:
-  print("ablehnen")
